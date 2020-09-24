@@ -126,17 +126,6 @@ h2
 }
 
 
-.MainVideo
-{
-  bottom: 0px;
-  right:0px;
-  min-width: 100%;
-  width: auto;
-  height: 100vh;
-  z-index: -1;
-  overflow: hidden;
-}
-
 .row2
 {
   display: flex;
@@ -159,6 +148,15 @@ h2
   width: 100%;
 }
 
+.column2 img
+{
+  max-width: 100%;
+  padding: 0 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .img-with-text {
   text-align: justify;
@@ -168,6 +166,19 @@ h2
 }
 
 .img-with-text img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+.img-with-text1 {
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.img-with-text1 img {
   display: block;
   margin: 0 auto;
 }
